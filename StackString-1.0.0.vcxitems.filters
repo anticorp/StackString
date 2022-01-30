@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\StackString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\StackString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)StackString.vcxitems">
+      <Filter>stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)StackString.vcxitems.filters">
+      <Filter>stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)StackString.sln">
+      <Filter>stuff</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>stuff</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt">
+      <Filter>stuff</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stuff">
+      <UniqueIdentifier>{d1d94149-995c-4922-8a85-13584b708df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
